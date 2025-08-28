@@ -4,15 +4,24 @@ import { Button } from "@/components/ui/button";
 
 export const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section
+      id="home"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden"
+    >
       {/* Animated Background */}
       <div className="absolute inset-0 hero-gradient opacity-90" />
       <div className="absolute inset-0 bg-gradient-to-br from-background/20 to-background/40" />
-      
+
       {/* Floating Elements */}
       <div className="absolute top-20 left-10 w-20 h-20 rounded-full bg-primary/20 animate-float" />
-      <div className="absolute bottom-20 right-10 w-32 h-32 rounded-full bg-accent/20 animate-float" style={{ animationDelay: "2s" }} />
-      <div className="absolute top-1/2 left-20 w-16 h-16 rounded-full bg-primary/30 animate-float" style={{ animationDelay: "4s" }} />
+      <div
+        className="absolute bottom-20 right-10 w-32 h-32 rounded-full bg-accent/20 animate-float"
+        style={{ animationDelay: "2s" }}
+      />
+      <div
+        className="absolute top-1/2 left-20 w-16 h-16 rounded-full bg-primary/30 animate-float"
+        style={{ animationDelay: "4s" }}
+      />
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center">
@@ -65,10 +74,11 @@ export const Hero = () => {
             <Button
               size="lg"
               variant="outline"
-              className="border-white/30 text-white hover:bg-white/10 shadow-large font-semibold px-8"
-            >
-              <Mail className="w-5 h-5 mr-2" />
-              Contact Me
+              className="border-white/30 text-white hover:bg-white/10 shadow-large font-semibold px-8">
+              <a href="#contact">
+                <Mail className="w-5 h-5 mr-2 inline" />
+                Contact Me
+              </a>
             </Button>
           </motion.div>
         </div>

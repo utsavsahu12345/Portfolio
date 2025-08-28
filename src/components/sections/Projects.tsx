@@ -4,28 +4,39 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Shopping Website",
-    description: "Developed an e-commerce website with product listing and shopping cart functionality.",
-    techStack: "MERN Stack",
-    details: "Implemented React.js for frontend and MongoDB + Express.js for backend database operations.",
+    title: "Day Care Website",
+    description:
+      "A responsive website for a day care center, featuring program details, admission info, and contact forms.",
+    techStack: "HTML, CSS, JavaScript",
+    details: "Developed using HTML for structure, CSS for styling, and JavaScript for interactive elements. Includes multiple pages such as Home, About, Program, Admission, and Contact. Optimized for desktop and mobile devices.",
+    code: "https://github.com/utsavsahu12345/Responsive-Website",
+    live: "https://utsavsahu12345.github.io/Responsive-Website/",
   },
   {
-    title: "CRUD Application",
-    description: "Built a web application with Create, Read, Update, and Delete operations.",
-    techStack: "MERN Stack",
-    details: "Used React.js for user interface and Node.js, Express.js, MongoDB for backend.",
+    title: "Fashion API Store",
+    description:
+      "A modern e-commerce website for fashion collections with cart functionality and API-driven data.",
+    techStack: "React.js, Vite, Tailwind CSS",
+    details:
+      "Built with React.js for the frontend, styled using Tailwind CSS, and powered by Vite for fast development. The site fetches product data from APIs and features dynamic collections for men, women, and youth, along with a shopping cart.",
+    code: "https://github.com/utsavsahu12345/Fashion-Api-Store",
+    live: "https://utsavsahu12345.github.io/Fashion-Api-Store/",
   },
   {
-    title: "Contact Manager",
-    description: "Created a web app to manage contacts with add, update, delete, and search functionality.",
-    techStack: "MERN Stack",
-    details: "Built using React.js, Node.js, Express.js, MongoDB and styled with Bootstrap for responsive UI.",
+    title: "MERN User Management System",
+    description:
+      "A full-stack web application for managing users with CRUD operations, built using the MERN stack.",
+    techStack: "MongoDB, Express.js, React.js, Node.js, Vite",
+    details:
+      "This project features a React.js frontend (powered by Vite) and a Node.js/Express backend with MongoDB for data storage. Users can be created, read, updated, and deleted. The app demonstrates RESTful API integration, modern UI components, and efficient state management.",
+    code: "https://github.com/utsavsahu12345/MERN-CRUD-App",
   },
   {
-    title: "Personal Portfolio Website",
-    description: "Designed and developed a responsive portfolio website using HTML, CSS, JavaScript, and Bootstrap.",
-    techStack: "HTML, CSS, JS, Bootstrap",
-    details: "Showcases projects, skills, and personal information in a professional layout.",
+    title: "Movie Rent System",
+    description: "console-based application for managing movie rentals, allowing customers to rent movies and shopkeepers to manage inventory and customer information.",
+    techStack: "Java",
+    details: "A Java console application for managing movie rentals. It allows customers to rent movies and shopkeepers to manage inventory and customer records using simple text-based menus. The project demonstrates basic object-oriented programming concepts.",
+    code: "https://github.com/utsavsahu12345/Movie-Rent-System",
   },
 ];
 
@@ -40,7 +51,9 @@ export const Projects = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gradient">Featured Projects</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 text-gradient">
+            Featured Projects
+          </h2>
           <div className="w-24 h-1 bg-primary mx-auto rounded-full" />
         </motion.div>
 
@@ -71,19 +84,33 @@ export const Projects = () => {
 
               <div className="flex gap-3 pt-4 border-t border-border/50">
                 <Button
+                  asChild
                   size="sm"
                   variant="outline"
                   className="hover:bg-primary hover:text-primary-foreground transition-colors duration-300"
                 >
-                  <Github className="w-4 h-4 mr-2" />
-                  Code
+                  <a
+                    href={project.code}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Github className="w-4 h-4 mr-2" />
+                    Code
+                  </a>
                 </Button>
                 <Button
+                  asChild
                   size="sm"
                   className="bg-primary hover:bg-primary/90 text-primary-foreground"
                 >
-                  <ExternalLink className="w-4 h-4 mr-2" />
-                  Live Demo
+                  <a
+                    href={project.live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <ExternalLink className="w-4 h-4 mr-2" />
+                    Live Demo
+                  </a>
                 </Button>
               </div>
             </motion.div>

@@ -14,7 +14,7 @@ const contactInfo = [
     icon: Mail,
     label: "Email",
     value: "utsavsahu12345@gmail.com",
-    href: "mailto:utsavsahu12345@gmail.com",
+    href: "https://mail.google.com/mail/?view=cm&fs=1&to=utsavsahu12345@gmail.com",
     color: "text-blue-500",
   },
   {
@@ -38,7 +38,10 @@ export const Contact = () => {
     <section id="contact" className="py-20 bg-background relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute top-10 right-10 w-32 h-32 rounded-full bg-primary/10 animate-float" />
-      <div className="absolute bottom-10 left-10 w-24 h-24 rounded-full bg-accent/10 animate-float" style={{ animationDelay: "2s" }} />
+      <div
+        className="absolute bottom-10 left-10 w-24 h-24 rounded-full bg-accent/10 animate-float"
+        style={{ animationDelay: "2s" }}
+      />
 
       <div className="container mx-auto px-4 relative z-10">
         <motion.div
@@ -65,7 +68,7 @@ export const Contact = () => {
             className="space-y-6"
           >
             <h3 className="text-2xl font-bold text-foreground mb-8">Let's Connect</h3>
-            
+
             {contactInfo.map((contact, index) => (
               <motion.a
                 key={contact.label}
@@ -78,7 +81,9 @@ export const Contact = () => {
                 transition={{ duration: 0.8, delay: index * 0.1 }}
                 className="flex items-center p-6 card-gradient rounded-xl shadow-medium hover:shadow-large transition-all duration-300 hover:-translate-y-1 group"
               >
-                <div className={`w-12 h-12 ${contact.color} bg-current/10 rounded-full flex items-center justify-center mr-4`}>
+                <div
+                  className={`w-12 h-12 ${contact.color} bg-current/10 rounded-full flex items-center justify-center mr-4`}
+                >
                   <contact.icon className={`w-6 h-6 ${contact.color}`} />
                 </div>
                 <div>
@@ -105,21 +110,26 @@ export const Contact = () => {
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Ready to Start a Project?</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Whether you have a project in mind or just want to chat about technology, 
+                Whether you have a project in mind or just want to chat about technology,
                 I'd love to hear from you. Let's create something amazing together!
               </p>
             </div>
-            
+
             <div className="space-y-4">
               <Button
                 size="lg"
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground shadow-medium"
-                onClick={() => window.open("mailto:utsavsahu12345@gmail.com", "_blank")}
+                onClick={() =>
+                  window.open(
+                    "https://mail.google.com/mail/?view=cm&fs=1&to=utsavsahu12345@gmail.com",
+                    "_blank"
+                  )
+                }
               >
                 <Mail className="w-5 h-5 mr-2" />
                 Send an Email
               </Button>
-              
+
               <Button
                 size="lg"
                 variant="outline"

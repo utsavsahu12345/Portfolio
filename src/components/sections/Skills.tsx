@@ -23,7 +23,7 @@ const skillCategories = [
   {
     title: "Tools",
     icon: Wrench,
-    skills: ["Git", "GitHub", "VS Code", "Postman"],
+    skills: ["Git", "GitHub", "VS Code", "Postman", "Figma"],
     color: "bg-orange-500/10 text-orange-500",
   },
 ];

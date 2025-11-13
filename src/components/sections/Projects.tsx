@@ -3,6 +3,16 @@ import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
+    {
+    title: "Local Service Booking Website",
+    description:
+      "A MERN stack-based website that allows users to book local home services such as cleaning, repair, and grooming with ease.",
+    techStack: "MongoDB, Express.js, React.js, Node.js, Vite",
+    details:
+      "This website features a modern React.js frontend (built with Vite) and a Node.js/Express backend connected to MongoDB for data storage. Users can explore available services, make and cancel bookings, and share feedback. It includes JWT authentication, RESTful API integration, and a user-friendly interface for smooth service booking.",
+    code: "https://github.com/utsavsahu12345/Local-Service-Project-Frontend",
+    live: "local-service-project-frontend.vercel.app",
+  },
   {
     title: "Day Care Website",
     description:
@@ -22,16 +32,6 @@ const projects = [
       "Built with React.js for the frontend, styled using Tailwind CSS, and powered by Vite for fast development. The site fetches product data from APIs and features dynamic collections for men, women, and youth, along with a shopping cart.",
     code: "https://github.com/utsavsahu12345/Fashion-Api-Store",
     live: "https://utsavsahu12345.github.io/Fashion-Api-Store/",
-  },
-  {
-    title: "Local Service Booking Website",
-    description:
-      "A MERN stack-based website that allows users to book local home services such as cleaning, repair, and grooming with ease.",
-    techStack: "MongoDB, Express.js, React.js, Node.js, Vite",
-    details:
-      "This website features a modern React.js frontend (built with Vite) and a Node.js/Express backend connected to MongoDB for data storage. Users can explore available services, make and cancel bookings, and share feedback. It includes JWT authentication, RESTful API integration, and a user-friendly interface for smooth service booking.",
-    code: "https://github.com/utsavsahu12345/Local-Service-Project-Frontend",
-    live: "local-service-project-frontend.vercel.app",
   },
   {
     title: "Movie Rent System",

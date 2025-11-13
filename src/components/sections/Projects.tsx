@@ -11,7 +11,7 @@ const projects = [
     details:
       "This website features a modern React.js frontend (built with Vite) and a Node.js/Express backend connected to MongoDB for data storage. Users can explore available services, make and cancel bookings, and share feedback. It includes JWT authentication, RESTful API integration, and a user-friendly interface for smooth service booking.",
     code: "https://github.com/utsavsahu12345/Local-Service-Project-Frontend",
-    live: "local-service-project-frontend.vercel.app",
+    live: "https://local-service-project-frontend.vercel.app",
   },
   {
     title: "Day Care Website",

@@ -8,7 +8,8 @@ const projects = [
     description:
       "A responsive website for a day care center, featuring program details, admission info, and contact forms.",
     techStack: "HTML, CSS, JavaScript",
-    details: "Developed using HTML for structure, CSS for styling, and JavaScript for interactive elements. Includes multiple pages such as Home, About, Program, Admission, and Contact. Optimized for desktop and mobile devices.",
+    details:
+      "Developed using HTML for structure, CSS for styling, and JavaScript for interactive elements. Includes multiple pages such as Home, About, Program, Admission, and Contact. Optimized for desktop and mobile devices.",
     code: "https://github.com/utsavsahu12345/Responsive-Website",
     live: "https://utsavsahu12345.github.io/Responsive-Website/",
   },
@@ -23,19 +24,22 @@ const projects = [
     live: "https://utsavsahu12345.github.io/Fashion-Api-Store/",
   },
   {
-    title: "MERN User Management System",
+    title: "Local Service Booking Website",
     description:
-      "A full-stack web application for managing users with CRUD operations, built using the MERN stack.",
+      "A MERN stack-based website that allows users to book local home services such as cleaning, repair, and grooming with ease.",
     techStack: "MongoDB, Express.js, React.js, Node.js, Vite",
     details:
-      "This project features a React.js frontend (powered by Vite) and a Node.js/Express backend with MongoDB for data storage. Users can be created, read, updated, and deleted. The app demonstrates RESTful API integration, modern UI components, and efficient state management.",
-    code: "https://github.com/utsavsahu12345/MERN-CRUD-App",
+      "This website features a modern React.js frontend (built with Vite) and a Node.js/Express backend connected to MongoDB for data storage. Users can explore available services, make and cancel bookings, and share feedback. It includes JWT authentication, RESTful API integration, and a user-friendly interface for smooth service booking.",
+    code: "https://github.com/utsavsahu12345/Local-Service-Project-Frontend",
+    live: "local-service-project-frontend.vercel.app",
   },
   {
     title: "Movie Rent System",
-    description: "console-based application for managing movie rentals, allowing customers to rent movies and shopkeepers to manage inventory and customer information.",
+    description:
+      "console-based application for managing movie rentals, allowing customers to rent movies and shopkeepers to manage inventory and customer information.",
     techStack: "Java",
-    details: "A Java console application for managing movie rentals. It allows customers to rent movies and shopkeepers to manage inventory and customer records using simple text-based menus. The project demonstrates basic object-oriented programming concepts.",
+    details:
+      "A Java console application for managing movie rentals. It allows customers to rent movies and shopkeepers to manage inventory and customer records using simple text-based menus. The project demonstrates basic object-oriented programming concepts.",
     code: "https://github.com/utsavsahu12345/Movie-Rent-System",
   },
 ];

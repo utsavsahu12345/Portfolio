@@ -73,7 +73,7 @@ export const Hero = () => {
               className="flex items-center justify-center md:justify-start mb-8"
             >
               <MapPin className="w-5 h-5 text-white/70 mr-2" />
-              <span className="text-white/70 text-lg">Godri, Madhya Pradesh</span>
+              <span className="text-white/70 text-lg">Harda, Madhya Pradesh</span>
             </motion.div>
 
             <motion.div
@@ -88,7 +88,7 @@ export const Hero = () => {
               >
                 <a
                   href={`${import.meta.env.BASE_URL}Resume.pdf`}
-                  download="UtsavSahuResume.pdf"
+                  download="Utsav_Sahu_Resume.pdf"
                   className="flex items-center"
                 >
                   <Download className="w-5 h-5 mr-2" />

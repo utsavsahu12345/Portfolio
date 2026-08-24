@@ -12,6 +12,7 @@ const educationData = [
     degree: "BBA with Information Technology Excellence Group (ITEG)",
     institution: "Sant Singaji Institute of Science & Management, Sandalpur, MP",
     year: "2023 - 2026",
+    percentage: "67.50%",
     type: "completed",
   },
   {

@@ -4,7 +4,7 @@ import { GraduationCap, Award } from "lucide-react";
 const educationData = [
     {
     degree: "MCA (Master of Computer Applications)",
-    institution: "SAM Global University",
+    institution: "SAM Global University Bhopal",
     year: "2026 - Present, 1st Year",
     type: "current",
   },

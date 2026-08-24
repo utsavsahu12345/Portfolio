@@ -10,9 +10,6 @@ export const Footer = () => {
             <Heart className="w-4 h-4 text-red-500 mx-2 fill-current" />
             <span className="text-muted-foreground">by Utsav Sahu</span>
           </div>
-          <p className="text-muted-foreground">
-            © 2025 Utsav Sahu. All rights reserved.
-          </p>
         </div>
       </div>
     </footer>

@@ -2,11 +2,17 @@ import { motion } from "framer-motion";
 import { GraduationCap, Award } from "lucide-react";
 
 const educationData = [
+    {
+    degree: "MCA (Master of Computer Applications)",
+    institution: "SAM Global University",
+    year: "2026 - Present, 1st Year",
+    type: "current",
+  },
   {
     degree: "BBA with Information Technology Excellence Group (ITEG)",
     institution: "Sant Singaji Institute of Science & Management, Sandalpur, MP",
-    year: "2023 - Present, 3rd Year",
-    type: "current",
+    year: "2023 - 2026",
+    type: "completed",
   },
   {
     degree: "Higher Secondary (12th Class)",

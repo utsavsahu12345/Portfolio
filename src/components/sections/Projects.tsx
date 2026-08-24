@@ -3,6 +3,16 @@ import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const projects = [
+  {
+  title: "Bell-Aura Bakes",
+  description:
+    "A responsive bakery and cake shop website for Bell-Aura Bakes in Uttam Nagar, featuring custom cake ordering, a gallery, and an instant WhatsApp estimator.",
+  techStack: "React.js, HTML, CSS, JavaScript",
+  details:
+    "A modern, mobile‑friendly website designed for a local bakery. It showcases a gallery of previous designs, a custom cake estimator that generates a pre‑filled WhatsApp message, and key business info like opening hours, location, and FAQs. The site is built with clean semantic HTML, custom CSS, and vanilla JavaScript for interactivity – all optimised for fast loading and a smooth user experience.",
+  code: "https://github.com/utsavsahu12345/Bell-Aura-Bakes",
+  live: "https://utsavsahu12345.github.io/Bell-Aura-Bakes/",
+},
     {
     title: "Local Service Booking Website",
     description:
@@ -23,16 +33,24 @@ const projects = [
     code: "https://github.com/utsavsahu12345/Responsive-Website",
     live: "https://utsavsahu12345.github.io/Responsive-Website/",
   },
-  {
-    title: "Fashion API Store",
-    description:
-      "A modern e-commerce website for fashion collections with cart functionality and API-driven data.",
-    techStack: "React.js, Vite, Tailwind CSS",
-    details:
-      "Built with React.js for the frontend, styled using Tailwind CSS, and powered by Vite for fast development. The site fetches product data from APIs and features dynamic collections for men, women, and youth, along with a shopping cart.",
-    code: "https://github.com/utsavsahu12345/Fashion-Api-Store",
-    live: "https://utsavsahu12345.github.io/Fashion-Api-Store/",
-  },
+{
+        title: "DR Lal Path Labs Jajpur",
+        description: "A responsive diagnostic and healthcare service website for DR Lal Path Labs Jajpur, featuring home sample collection, nursing services, and comprehensive health packages.",
+        techStack: "React.js, HTML, CSS, JavaScript",
+        details: "A modern, responsive website built for DR Lal Path Labs Jajpur, a trusted diagnostic and healthcare center. The site provides comprehensive information about diagnostic services, home sample collection, nursing care, and health packages. Features include service listings, gallery, contact forms, and location details with an emphasis on patient care and accessibility.",
+        code: "https://github.com/utsavsahu12345/Dr.-Lal-Path-Labs-Jajpur",
+        live: "https://utsavsahu12345.github.io/Dr.-Lal-Path-Labs-Jajpur/",
+    },
+    {
+  title: "Scrumptious Cafe & Bakery",
+  description:
+    "A cozy bakery and cafe website for a West Hollywood neighborhood spot, showcasing a menu, gallery, story, and visit information with a dark mode toggle.",
+  techStack: "React.js, HTML, CSS, JavaScript",
+  details:
+    "A single‑page, responsive website built for a local bakery. It features a full menu with daily specials, a gallery of food photography, an 'Our Story' section, and opening hours with location details. The site includes a dark mode toggle, smooth navigation, and a clean, hand‑crafted aesthetic that reflects the bakery's artisanal vibe. All content is built with semantic HTML, custom CSS, and vanilla JavaScript for interactivity.",
+  code: "https://github.com/utsavsahu12345/Scrumptious-Cafe",
+  live: "https://utsavsahu12345.github.io/Scrumptious-Cafe/",
+},
   {
     title: "Movie Rent System",
     description:

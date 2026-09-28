@@ -4,16 +4,27 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-  title: "Bell-Aura Bakes",
-  description:
-    "A responsive bakery and cake shop website for Bell-Aura Bakes in Uttam Nagar, featuring custom cake ordering, a gallery, and an instant WhatsApp estimator.",
-  techStack: "React.js, HTML, CSS, JavaScript",
-  details:
-    "A modern, mobile‑friendly website designed for a local bakery. It showcases a gallery of previous designs, a custom cake estimator that generates a pre‑filled WhatsApp message, and key business info like opening hours, location, and FAQs. The site is built with clean semantic HTML, custom CSS, and vanilla JavaScript for interactivity – all optimised for fast loading and a smooth user experience.",
-  code: "https://github.com/utsavsahu12345/Bell-Aura-Bakes",
-  live: "https://utsavsahu12345.github.io/Bell-Aura-Bakes/",
-},
-    {
+    title: "Bell-Aura Bakes",
+    description:
+      "A responsive bakery and cake shop website for Bell-Aura Bakes in Uttam Nagar, featuring custom cake ordering, a gallery, and an instant WhatsApp estimator.",
+    techStack: "React.js, HTML, CSS, JavaScript",
+    details:
+      "A modern, mobile‑friendly website designed for a local bakery. It showcases a gallery of previous designs, a custom cake estimator that generates a pre‑filled WhatsApp message, and key business info like opening hours, location, and FAQs. The site is built with clean semantic HTML, custom CSS, and vanilla JavaScript for interactivity – all optimised for fast loading and a smooth user experience.",
+    code: "https://github.com/utsavsahu12345/Bell-Aura-Bakes",
+    live: "https://utsavsahu12345.github.io/Bell-Aura-Bakes/",
+  },
+  {
+    title: "Parcel Management System",
+    description:
+      "A branch-based parcel booking and delivery management web app for a courier & cargo company, with automatic invoice PDF generation, live dashboard analytics, and branch-wise commission settlement.",
+    techStack:
+      "Google Apps Script, Google Sheets, Google Drive, HTML, Bootstrap 5, JavaScript",
+    details:
+      "A complete logistics management system built on Google Apps Script with Google Sheets as the database. Each branch logs in with its own Branch ID and password to book parcels, track deliveries and manage payments. Parcel booking auto-calculates the service fee from distance and weight using a price sheet, applies additional fees and discounts, and generates a unique invoice number. A branded PDF invoice (with logo, service cities and an uploaded insurance image) is created and saved to Google Drive. Branches can edit or cancel pending bookings, and the destination branch marks parcels as delivered, collecting To-Pay (COD) amounts by cash or online. The dashboard shows bookings, revenue, delivery success rate, pending COD, daily trends and top branches. A settlement module automatically splits commission between the sending, delivery and head branch, and shows what each branch has to pay or collect. Concurrent bookings are handled safely using script locks, so invoice numbers never repeat.",
+    code: "https://docs.google.com/spreadsheets/d/1adk81HxJSFEvaNWK2aDIQPgROAYYy0nvw5qZnLs-7yc/edit?usp=sharing",
+    live: "https://script.google.com/macros/s/AKfycbzbfimWimaYwcbfOEi9ov8lYyCI_HOtPF7YAc438aln/dev",
+  },
+  {
     title: "Local Service Booking Website",
     description:
       "A MERN stack-based website that allows users to book local home services such as cleaning, repair, and grooming with ease.",
@@ -33,24 +44,26 @@ const projects = [
     code: "https://github.com/utsavsahu12345/Responsive-Website",
     live: "https://utsavsahu12345.github.io/Responsive-Website/",
   },
-{
-        title: "DR Lal Path Labs Jajpur",
-        description: "A responsive diagnostic and healthcare service website for DR Lal Path Labs Jajpur, featuring home sample collection, nursing services, and comprehensive health packages.",
-        techStack: "React.js, HTML, CSS, JavaScript",
-        details: "A modern, responsive website built for DR Lal Path Labs Jajpur, a trusted diagnostic and healthcare center. The site provides comprehensive information about diagnostic services, home sample collection, nursing care, and health packages. Features include service listings, gallery, contact forms, and location details with an emphasis on patient care and accessibility.",
-        code: "https://github.com/utsavsahu12345/Dr.-Lal-Path-Labs-Jajpur",
-        live: "https://utsavsahu12345.github.io/Dr.-Lal-Path-Labs-Jajpur/",
-    },
-    {
-  title: "Scrumptious Cafe & Bakery",
-  description:
-    "A cozy bakery and cafe website for a West Hollywood neighborhood spot, showcasing a menu, gallery, story, and visit information with a dark mode toggle.",
-  techStack: "React.js, HTML, CSS, JavaScript",
-  details:
-    "A single‑page, responsive website built for a local bakery. It features a full menu with daily specials, a gallery of food photography, an 'Our Story' section, and opening hours with location details. The site includes a dark mode toggle, smooth navigation, and a clean, hand‑crafted aesthetic that reflects the bakery's artisanal vibe. All content is built with semantic HTML, custom CSS, and vanilla JavaScript for interactivity.",
-  code: "https://github.com/utsavsahu12345/Scrumptious-Cafe",
-  live: "https://utsavsahu12345.github.io/Scrumptious-Cafe/",
-},
+  {
+    title: "DR Lal Path Labs Jajpur",
+    description:
+      "A responsive diagnostic and healthcare service website for DR Lal Path Labs Jajpur, featuring home sample collection, nursing services, and comprehensive health packages.",
+    techStack: "React.js, HTML, CSS, JavaScript",
+    details:
+      "A modern, responsive website built for DR Lal Path Labs Jajpur, a trusted diagnostic and healthcare center. The site provides comprehensive information about diagnostic services, home sample collection, nursing care, and health packages. Features include service listings, gallery, contact forms, and location details with an emphasis on patient care and accessibility.",
+    code: "https://github.com/utsavsahu12345/Dr.-Lal-Path-Labs-Jajpur",
+    live: "https://utsavsahu12345.github.io/Dr.-Lal-Path-Labs-Jajpur/",
+  },
+  {
+    title: "Scrumptious Cafe & Bakery",
+    description:
+      "A cozy bakery and cafe website for a West Hollywood neighborhood spot, showcasing a menu, gallery, story, and visit information with a dark mode toggle.",
+    techStack: "React.js, HTML, CSS, JavaScript",
+    details:
+      "A single‑page, responsive website built for a local bakery. It features a full menu with daily specials, a gallery of food photography, an 'Our Story' section, and opening hours with location details. The site includes a dark mode toggle, smooth navigation, and a clean, hand‑crafted aesthetic that reflects the bakery's artisanal vibe. All content is built with semantic HTML, custom CSS, and vanilla JavaScript for interactivity.",
+    code: "https://github.com/utsavsahu12345/Scrumptious-Cafe",
+    live: "https://utsavsahu12345.github.io/Scrumptious-Cafe/",
+  },
   {
     title: "Movie Rent System",
     description:
